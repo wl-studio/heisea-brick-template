@@ -1,0 +1,25 @@
+{
+  "brick 列表组件": {
+    "prefix": "bhlt",
+    "body": [
+      "<bk-list :search-config=\"searchConfig\"",
+      "         :table-config=\"tableConfig\" ",
+      "         :button-config=\"buttonConfig\" />"
+    ]
+  },
+  "brick 表单组件": {
+    "prefix": "bhfm",
+    "body": ["<bk-form :form-config=\"formConfig\" />"]
+  },
+  "brick 比对组件": {
+    "prefix": "bhct",
+    "body": ["<bk-contrast :contrast-config=\"contrastConfig\" />"]
+  },
+  "brick 弹窗组件": {
+    "prefix": "bhdl",
+    "body": [
+      "<bk-dialog :dialog-config=\"dialogConfig\"",
+      "           :dialog-visible=\"dialogVisible\" />"
+    ]
+  }
+}
